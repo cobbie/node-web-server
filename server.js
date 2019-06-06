@@ -50,8 +50,11 @@ app.get('/about', (req, res) => {
 app.get('/projects', (req, res) => {
     res.render('projects.hbs', {
         link1: 'https://github.com/cobbie/react-pomodoro',
+        text1: 'React pomodoro productivity app',
         link2: 'https://github.com/cobbie/node-weather',
-        link3: 'https://github.com/cobbie/summer-robot-greetingcard'
+        text2: 'Node weather report app',
+        link3: 'https://github.com/cobbie/summer-robot-greetingcard',
+        text3: 'Java robot greeting card animated graphics',
     })
 })
 
