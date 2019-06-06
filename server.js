@@ -49,9 +49,9 @@ app.get('/about', (req, res) => {
 
 app.get('/projects', (req, res) => {
     res.render('projects.hbs', {
-        link1: '',
-        link2: '',
-        link3: ''
+        link1: 'https://github.com/cobbie/react-pomodoro',
+        link2: 'https://github.com/cobbie/node-weather',
+        link3: 'https://github.com/cobbie/summer-robot-greetingcard'
     })
 })
 
